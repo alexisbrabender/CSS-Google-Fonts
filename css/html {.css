@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .hero-content {
+   display: none; 
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 100vh;
+  }
+  
+  .hero-content {
+    width: 50%;
+    text-align: center;
+    color: #000;
+  }
+  
+  p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  a {
+    margin-top: 0;
+    margin-right:10px;
+    margin-bottom: 10px;
+    background-color: #DAF7A6;
+    padding: 10px;
+    text-decoration: none;
+    color: #5B2C6F;
+    display: inline-block;
+  }
+  
+  nav {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color:  rgb(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  span .font-pair1a{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  span .font-pair1b{
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  
+  .hero-background {
+    background: url("https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=996&q=80") no-repeat fixed center;
+    background-size: cover;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .first-section-background {
+    background: url("https://images.unsplash.com/photo-1600940696057-0af7ed2daf74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80") no-repeat fixed bottom;
+  }
+  
+  .second-section-background {
+    background: url("https://images.unsplash.com/27/type-set.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2368&q=80") no-repeat fixed bottom;
+  }
+  
+  .third-section-background {
+    background: url("https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80") no-repeat fixed bottom;
+  }
+  
+  .with-background {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h1 {
+    font-size: 60px;
+    color: pink;
+    line-height: 65px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 40px;
+  }
+  
+  h3 {
+    font-size: 55px;
+    font-weight: 200;
+    line-height: 60px;
+    margin: 0;
+  }
+  
+  .number {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: -25px;
+    right: -25px;
+    font-weight: 30px;
+    line-height: 50px;
+  }
+  
+  article {
+    max-width: 50%;
+    margin: 20px auto;
+    padding: 50px;
+  }
+  
+  .first-article-container, .second-article-container, .third-article-container  {
+    position: relative;
+  }
+  
+  .first-article-container {
+    background-color: pink;
+  }
+  
+  .second-article-container {
+    background-color: #F4D03F;
+  }
+  
+  .third-article-container {
+    background-color: #5B2C6F;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: pink;
+  }
+  
+   
+  
+  © 2022 GitHub, Inc.
+  Terms
+  Privacy
+  Security
+  Status
+  Docs
+  Contact GitHub
+  Pricing
+  API
+  Training
+  Blog
+  About
